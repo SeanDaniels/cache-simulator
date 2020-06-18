@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+make
+./bin/testcase0 > ./output/test-case-0-output.txt
+./bin/testcase1 > ./output/test-case-1-output.txt
+./bin/testcase2 > ./output/test-case-2-output.txt
+./bin/testcase3 > ./output/test-case-3-output.txt
+./bin/testcase4 > ./output/test-case-4-output.txt
+./bin/testcase5 > ./output/test-case-5-output.txt
